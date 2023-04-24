@@ -1,0 +1,21 @@
+spring:
+ data: 
+  mongodb:
+   username: test
+   password: test
+   host: localhost
+   port: 27017
+   database: foodfinder
+   authentication-database: admin
+
+api:
+ key: AIzaSyA39qTdZGo0iygSJC5xWBdEjPKKC3DoGtw
+ 
+restaurant:
+ location: 12.903359, 77.704883
+ type: restaurant
+ radius: 1500000
+ place:
+  uri: /place/nearbysearch/json
+ review:
+  uri: /place/details/json
